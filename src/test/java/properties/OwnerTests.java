@@ -10,7 +10,7 @@ public class OwnerTests {
 
     @Test
     @Tag("owner")
-    void loginTest() {
+    void loginTest1() {
         String login = config.login();
         String password = config.password();
 
