@@ -19,7 +19,7 @@ public class PracticeForm  extends TestBase {
     }
     @Test
     @DisplayName("Successful fill registration test")
-    void successFillTest() {
+    void successFillTest1() {
 
         open("/automation-practice-form");
         $(".main-header").shouldHave(text("Practice Form"));
