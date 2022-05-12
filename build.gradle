@@ -56,3 +56,29 @@ task demoqa_tests(type: Test) {
 //        excludeTags "simple"
     }
 }
+
+
+task test5(type: Test) {
+    useJUnitPlatform{
+        includeTags "test5"
+    }
+}
+
+task system_properties_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "systemProperties"
+    }
+}
+
+task owner_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "owner"
+    }
+}
+
+
+task simple_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "simple"
+    }
+}
